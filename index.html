@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Channel Analytics</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1f2328; --muted: #59636e; --link: #0969da; --rule: #d1d9e0; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0d1117; --fg: #e6edf3; --muted: #9198a1; --link: #4493f8; --rule: #3d444d; }
+  }
+  body { background: var(--bg); color: var(--fg); font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; margin: 0; padding: 0 16px; }
+  main { max-width: 680px; margin: 48px auto; }
+  h1 { font-size: 28px; margin-bottom: 4px; }
+  .sub { color: var(--muted); margin-top: 0; }
+  a { color: var(--link); }
+  footer { border-top: 1px solid var(--rule); margin-top: 40px; padding-top: 16px; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Channel Analytics</h1>
+  <p class="sub">A private analytics tool for YouTube channels owned by its operator.</p>
+
+  <p>Channel Analytics reads performance data for a small number of YouTube channels that
+  belong to the person who runs it, so those channels' videos can be reviewed and compared.</p>
+
+  <p>It is not a public service. Only the owner of each channel authorizes access, and only to
+  their own channels.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Reads channel and video statistics (views, watch time, audience retention, traffic sources,
+    audience demographics, and revenue reports) through the YouTube Data API and the YouTube
+    Analytics API.</li>
+    <li>Uses read-only access. It never uploads, edits, deletes or comments on anything.</li>
+    <li>Keeps the results in private storage for the operator's own analysis.</li>
+  </ul>
+
+  <p>See the <a href="privacy.html">privacy policy</a> for exactly what is accessed and how it is handled.</p>
+
+  <footer>
+    Contact: <a href="mailto:simonpatreon@gmail.com">simonpatreon@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>
